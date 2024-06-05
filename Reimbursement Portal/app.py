@@ -23,10 +23,10 @@ app.secret_key = 'reimbursement'
 # Required for session management
 
 #Configuring the MYSQL Connection server 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'tabledata@123'
-app.config['MYSQL_DB'] = 'employeedb'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = ''
 
 mysql = MySQL(app)
 #Connecting Flask application to MYSQL database

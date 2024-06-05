@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert New Department</title>
+
+    <style>
+        body{
+            display:flex;
+            margin: 0;
+            
+            background-color:rgba(60, 158, 233, 0.416);
+            font-family: Arial, sans-serif;
+        }
+        aside{
+            background-color:rgb(223, 108, 82);
+            width: 250px;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            position:fixed;
+            font-size: 30px;
+            border: darkslategrey solid;
+        }
+        .sidebar a{
+            display: block;
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+            
+        }
+        .sidebar a:hover{
+            background-color: white;
+            color: rgb(223, 108, 82);
+        }
+        main{
+            font-size: 20px;
+            padding: 75px;
+            flex-grow: 1;
+            margin-left: 250px;   
+        }
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        button{
+            background-color:rgb(223, 108, 82);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            display: inline-block;    
+        }
+    </style>
+    
+</head>
+<body>
+    <aside>
+        <nav class="sidebar">
+            
+            <a href="{{ url_for('admin_dashboard') }}" class="sidebar-item">Dashboard</a>
+            <a href="{{ url_for('admin_assign') }}" class="sidebar-item">Assign Manager to Employee</a>
+            <a href="{{ url_for('admin_deleteEmp') }}" class="sidebar-item">Delete Employees</a>
+            <a href="{{ url_for('admin_insertDept') }}" class="sidebar-item">Insert Department</a>
+            <a href="{{ url_for('admin_deleteDept') }}" class="sidebar-item">Delete Department</a>
+            <a href="{{url_for('admin_audittrail') }}" class="sidebar-item">Audit Trail</a>
+            
+        </nav>
+
+    </aside>
+
+    <main>
+
+        <div id="insertDept">
+            <form action="{{ url_for('admin_insertDept')}}" method="POST">
+                <p>Insert New Department </p>
+                <label for="department_name">Department Name:</label>
+                <input type="text" name="department_name" id="department_name">
+                <br><br>
+                <button type="submit">ADD</button>
+                <br><br>
+                {{msg}}
+            </form>
+            
+        </div>
+
+    </main>
+   
+</body>
+</html>

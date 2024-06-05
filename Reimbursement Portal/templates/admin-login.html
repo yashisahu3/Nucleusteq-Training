@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN-LOGIN </title>
+    <style>
+         p{
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 40px;
+        }
+        body{
+            
+            background-color:rgba(60, 158, 233, 0.416);
+        }
+        button{
+            background-color:rgb(223, 108, 82);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            margin-left: 120px;
+        }
+        div{
+            border-style: double;
+            border-color: brown;
+            border-width: medium;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding: 50px;
+            font-size: 25px;
+            background-color: white;
+        }       
+        input{
+            width:100%;
+        }
+        h5{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/admin_login" , method='POST'>
+            <p>ADMIN LOGIN</p>
+            <label for="email_id">Email :</label> 
+            <input type="email" name="email_id" required>
+            <br><br>
+            <label for="password">Password :</label> 
+            <input type="password" name="password" required>
+            <br>
+            <br>
+            <h5>
+                {{msg}}
+            </h5>
+            
+
+            <button type="submit">LOGIN</button>
+            <br>
+            
+            
+        </form>
+    </div>
+    
+</body>
+</html>

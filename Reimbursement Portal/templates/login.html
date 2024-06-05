@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement Portal</title>
+    <style>
+
+        body{
+            background-color:rgba(60, 158, 233, 0.416);
+        }
+        div{
+            background-color: snow;
+            border-style: double;
+            border-color: darkblue;
+            border-width: medium;
+            border-radius: 15px;
+            margin-top: 100px;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding: 50px;
+            font-size: 25px;
+        }
+        input{
+                width:100%;
+                border-radius:5px;
+            }
+
+        button{
+            width: 100%;
+            background-color:rgb(223, 108, 82);
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        p#msg{
+            color: red;
+        }
+        p#link{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <form action="/" method='POST'>
+            <label for="email_id">Email </label> 
+            <input type="email" name="email_id" required>
+            <br><br>
+            <label for="password">Password </label> 
+            <input type="password" name="password" required>
+            <br>
+            <br>
+            {% if msg %}
+               <p id="msg">{{ msg }}</p>
+            {% endif %}
+            
+
+            <button type="submit">LOGIN</button>
+            <br>
+            
+            <p id="link">Don't have an account? <a href="{{url_for('register')}}">Register now</a></p>
+            <br>
+            <p id="link">Are you an Admin? <a href="{{ url_for('admin_login') }}">Login from here</a> </p>
+        </form>
+    </div>
+    
+</body>
+</html>

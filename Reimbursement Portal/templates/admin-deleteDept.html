@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Department</title>
+
+    <style>
+         p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body{
+            display:flex;
+            margin: 0;
+            background-color:rgba(60, 158, 233, 0.416);
+        }
+        aside{
+            background-color:rgb(223, 108, 82);
+            width: 250px;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            position:fixed;
+            font-size: 30px;
+            border: darkslategrey solid;
+        }
+        .sidebar a{
+            display: block;
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+            
+        }
+        .sidebar a:hover{
+            background-color: white;
+            color: rgb(223, 108, 82);
+        }
+        main{
+            font-size: 20px;
+            padding: 75px;
+            flex-grow: 1;
+            margin-left: 250px;   
+        }
+        button{
+            background-color:rgb(223, 108, 82);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            display: inline-block;    
+        }
+        table{
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid black;
+            background-color:azure;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        td{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        th{
+            background-color:peachpuff;
+        }
+        tr:hover{
+            background-color:beige;
+        }
+    </style>
+    
+</head>
+<body>
+    <aside>
+        
+        <nav class="sidebar">
+            
+            <a href="{{ url_for('admin_dashboard') }}" class="sidebar-item">Dashboard</a>
+            <a href="{{ url_for('admin_assign') }}" class="sidebar-item">Assign Manager to Employee</a>
+            <a href="{{ url_for('admin_deleteEmp') }}" class="sidebar-item">Delete Employees</a>
+            <a href="{{ url_for('admin_insertDept') }}" class="sidebar-item">Insert Department</a>
+            <a href="{{ url_for('admin_deleteDept') }}" class="sidebar-item">Delete Department</a>
+            <a href="{{url_for('admin_audittrail') }}" class="sidebar-item">Audit Trail</a>
+        </nav>
+
+    </aside>
+
+    <main>
+
+        
+              
+        <div id="deleteDept">
+            <p>DELETE EXISTING DEPARTMENTS</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Department ID</th>
+                        <th>Department Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for dept in departments %}
+                    <tr id="dept-{{ dept[0] }}">
+                        <td>{{ dept[0] }}</td>
+                        <td>{{ dept[1] }}</td>
+                        <td>
+                            <form action="{{ url_for('admin_deleteDept') }}" method="POST" style="display:inline;">
+                                <input type="hidden" name="department_id" value="{{ dept[0] }}">
+                                <button type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>   
+            
+        </div>
+        
+
+    </main>
+   
+</body>
+</html>

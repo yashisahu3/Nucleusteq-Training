@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Home Page</title>
+    <style>
+         p#heading{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body{
+            
+            background-color:rgba(60, 158, 233, 0.416);
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button{
+            background-color:rgb(223, 108, 82);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            display: inline-block;    
+        }
+        table{
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid black;
+            background-color:azure;
+            border-radius: 10px;
+            overflow: hidden;
+            
+        }
+        td{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        th{
+            background-color:peachpuff;
+        }
+        tr:hover{
+            background-color:beige;
+        }
+        
+        button{
+            
+            background-color:rgb(223, 108, 82);
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        
+        p{
+            font-size: 40px;
+            
+        }
+        table,tr{
+            border-style:solid ;
+            border-color: gray;
+            font-size: 20px;
+        }
+       
+        tr:hover{
+            background-color: lightskyblue;
+        }
+        
+    </style>
+
+<script>
+    // Function to change the URL
+    function changeUrl(newUrl) {
+        // The new URL you want to set
+        const stateObj = { foo: "bar" };
+        history.pushState(stateObj, "new page", newUrl);
+    }
+
+    // Change the URL after the page has loaded
+    window.onload = function() {
+        changeUrl('/employee_page');
+    };
+</script>
+</head>
+<body>
+    <p>Welcome {{ user_name[0] }}!!!</p>
+    <br>
+    
+    <a href="{{url_for('new_request')}}">
+    <button type="submit">Add new Reimbursement Request</button>
+    </a>
+    <br><br>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Request ID</th>
+                <th>User ID</th>
+                <th>Expense Type</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Receipt</th>
+                <th>Status</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+         {% for row in data %}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+                <td>{{row[3]}}</td>
+                <td>{{row[4]}}</td>
+                <td>
+                    {% if row[5] %}
+                    <a href="{{ url_for('uploaded_file', filename=row[5]) }}" target="_blank">View Receipt</a>
+                    {% else %}
+                    No Receipt
+                    {% endif %}
+                </td>
+                <td>{{row[6]}}</td>
+                <td>{{row[7]}}</td> 
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

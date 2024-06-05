@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p#heading{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body{
+            display:flex;
+            margin: 0;
+            /* background-color:rgba(155, 186, 212, 0.586)  */
+            background-color:rgba(60, 158, 233, 0.416);
+        }
+        aside{
+            background-color:rgb(223, 108, 82);
+            width: 250px;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            position:fixed;
+            font-size: 30px;
+            border: darkslategrey solid;
+        }
+        .sidebar a{
+            display: block;
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+            
+        }
+        .sidebar a:hover{
+            background-color: white;
+            color: rgb(223, 108, 82);
+        }
+        main{
+            font-size: 20px;
+            padding: 75px;
+            flex-grow: 1;
+            margin-left: 250px;   
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button{
+            background-color:rgb(223, 108, 82);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            display: inline-block;    
+        }
+        table{
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid black;
+            background-color:azure;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        td{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        th{
+            background-color:peachpuff;
+        }
+        tr:hover{
+            background-color:beige;
+        }
+        p#heading{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <nav class="sidebar">
+            
+            <a href="{{ url_for('admin_dashboard') }}" class="sidebar-item">Dashboard</a>
+            <a href="{{ url_for('admin_assign') }}" class="sidebar-item">Assign Manager to Employee</a>
+            <a href="{{ url_for('admin_deleteEmp') }}" class="sidebar-item">Delete Employees</a>
+            <a href="{{ url_for('admin_insertDept') }}" class="sidebar-item">Insert Department</a>
+            <a href="{{ url_for('admin_deleteDept') }}" class="sidebar-item">Delete Department</a>
+            <a href="{{url_for('admin_audittrail') }}" class="sidebar-item">Audit Trail</a>
+            
+        </nav>
+
+    </aside>
+    <main>
+    
+    <p id="heading">Assign Manager to employee for Reimbursement Requests Handling</p>
+    <p id="heading">EMPLOYEES</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>EMPLOYEE ID</th>
+                        <th>EMPLOYEE NAME</th>
+                        <th>EMAIL ID</th>
+                        <th>DEPARTMENT</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in employees %}
+                    <tr>
+                        <td>{{row[0]}}</td>
+                        <td>{{row[1]}}</td>
+                        <td>{{row[2]}}</td>
+                        <td>{{row[4]}}</td>
+                        <form action="{{url_for('admin_assign')}}" method="POST">
+                            <input type="hidden" name="employee_id" value="{{row[0]}}">
+                            <input type="hidden" name="department" value="{{row[4]}}">
+                            <td><button type="submit">ASSIGN</button></td>
+                        </form>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <p id="heading">MANAGERS</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>MANAGER ID</th>
+                        <th>MANAGER NAME</th>
+                        <th>EMAIL ID</th>
+                        <th>DEPARTMENT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in managers %}
+                    <tr>
+                        <td>{{row[0]}}</td>
+                        <td>{{row[1]}}</td>
+                        <td>{{row[2]}}</td>
+                        <td>{{row[4]}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            
+
+            {% if dept_managers: %}
+            <form action="/admin_assign_submit" method="POST">
+                <input type="hidden" name="employee_id" value="{{ employee_id }}">
+                <input type="hidden" name="department" value="{{ department }}">
+                
+            
+            
+                <label for="manager_id">MANAGER ID :</label>
+                <select name="manager_id" id="manager_id" required>
+                    <br>
+                    <option value="">Select Manager</option>
+                    {% for row in dept_managers %}
+                        <option value="{{ row[0] }}">{{ row[0] }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+            <label for="department">Department of Employee and Manager: {{ department }}</label>
+            <br>
+                <br><br>
+                <button type="submit" id="assign">ASSIGN</button>
+            </form>
+            {% endif %}
+            
+    </main>       
+</body>
+</html>

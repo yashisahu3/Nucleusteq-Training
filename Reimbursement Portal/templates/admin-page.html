@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home page</title>
+
+    <style>
+         p#heading{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body{
+            display:flex;
+            margin: 0;
+    
+            background-color:rgba(60, 158, 233, 0.416);
+        }
+        aside{
+            background-color:rgb(223, 108, 82);
+            width: 250px;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            position:fixed;
+            font-size: 30px;
+            border: darkslategrey solid;
+        }
+        .sidebar a{
+            display: block;
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+            
+        }
+        .sidebar a:hover{
+            background-color: white;
+            color: rgb(223, 108, 82);
+        }
+        main{
+            font-size: 20px;
+            padding: 75px;
+            flex-grow: 1;
+            margin-left: 250px;   
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        button{
+            background-color:rgb(223, 108, 82);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            display: inline-block;    
+        }
+        table{
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid black;
+            background-color:azure;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        td{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        th{
+            background-color:peachpuff;
+        }
+        tr:hover{
+            background-color:beige;
+        }
+    </style>
+    
+</head>
+<body>
+    <aside>
+       
+        <nav class="sidebar">
+            
+            <a href="{{ url_for('admin_dashboard') }}" class="sidebar-item">Dashboard</a>
+            <a href="{{ url_for('admin_assign') }}" class="sidebar-item">Assign Manager to Employee</a>
+            <a href="{{ url_for('admin_deleteEmp') }}" class="sidebar-item">Delete Employees</a>
+            <a href="{{ url_for('admin_insertDept') }}" class="sidebar-item">Insert Department</a>
+            <a href="{{ url_for('admin_deleteDept') }}" class="sidebar-item">Delete Department</a>
+            <a href="{{url_for('admin_audittrail') }}" class="sidebar-item">Audit Trail</a>
+            
+        </nav>
+
+    </aside>
+
+    <main>
+
+        <div id="dashboard">
+            <h3>Welcome to the Admin-Page, {{admin_name}}</h3>
+
+        </div>
+        <hr>
+        <div id="assign">
+            <p>MANAGERS</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>MANAGER ID</th>
+                        <th>MANAGER NAME</th>
+                        <th>EMAIL ID</th>
+                        <th>DEPARTMENT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in managers %}
+                    <tr>
+                        <td>{{row[0]}}</td>
+                        <td>{{row[1]}}</td>
+                        <td>{{row[2]}}</td>
+                        <td>{{row[4]}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <p>EMPLOYEES</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>EMPLOYEE ID</th>
+                        <th>EMPLOYEE NAME</th>
+                        <th>EMAIL ID</th>
+                        <th>DEPARTMENT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in employees %}
+                    <tr>
+                        <td>{{row[0]}}</td>
+                        <td>{{row[1]}}</td>
+                        <td>{{row[2]}}</td>
+                        <td>{{row[4]}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <form action="/admin_page" method="POST">
+                <p>Assign Manager to employee for Reimbursement Requests Handling</p>
+                <label for="manager_id">MANAGER ID :</label>
+                <select name="manager_id" id="manager_id">
+                    {% for row in managers %}
+                        <option value="{{row[0]}}">{{row[0]}}</option>
+                    {% endfor %}
+                </select>
+
+                <label for="employee_id">EMPLOYEE ID :</label>
+                <select name="employee_id" id="employee_id">
+                    {% for row in employees %}
+                        <option value="{{row[0]}}">{{row[0]}}</option>
+                    {% endfor %}
+                </select>
+                <br>
+                <button type="submit">ASSIGN</button>
+            </form>
+
+        </div>
+        <hr>
+
+        <div id="deleteEmp">
+            <p>DELETE EXISTING EMPLOYEES</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>User Name</th>
+                        <th>Email Address</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows %}
+                    <tr>
+                        <td>{{ row[0] }}</td>
+                        <td>{{ row[1] }}</td>
+                        <td>{{ row[2] }}</td>
+                        <td>{{ row[4] }}</td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>   
+        </div>
+        <br>
+        <hr>
+
+        <div id="insertDept">
+            <form action="">
+                <p>Insert New Department </p>
+                <label for="department">Department Name:</label>
+                <input type="text" name="department" id="department">
+                <br><br>
+                <button>ADD</button>
+            </form>
+            
+        </div>
+        <hr>
+        <div id="deleteDept">
+            <p>DELETE EXISTING DEPARTMENTS</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Department ID</th>
+                        <th>Department Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows %}
+                    <tr>
+                        <td>{{ row[0] }}</td>
+                        <td>{{ row[1] }}</td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>   
+            
+        </div>
+        <hr>
+
+    </main>
+   
+</body>
+</html>

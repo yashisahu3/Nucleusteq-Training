@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Reimbursement Request</title>
+    <style>
+       
+        div{
+            background-color: snow;
+            border-style: double;
+            border-color: darkblue;
+            border-width: medium;
+            border-radius: 15px;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            padding: 50px;
+            font-size: 25px;
+            width: 700px;
+            transform: translate(-50%,-33%);
+        }
+        input{
+            border-radius:5px;
+        }
+        button{
+            width: 100%;
+            background-color:rgb(223, 108, 82);
+            color: white;
+            font-size: 20px;
+            border-radius: 15px;
+            cursor: pointer;   
+        }
+        p#link{
+            font-size: 20px;
+        }
+
+    </style>
+    <script>
+        function validateForm(){
+            let expense_type=document.getElementById("expense_type");
+            let amount=document.getElementById("amount");
+            let expense_value=expense_type.value;
+            let amount_value=parseInt(amount.value,10);
+            if(expense_value==='Travelling' && amount_value>15000){
+                alert("You cannot claim amount greater than Rs.15000 for Travelling");
+                return false;
+            }
+            else if(expense_value==='Relocation' && amount_value>20000){
+                alert("You cannot claim amount greater than Rs.20000 for Relocation");
+                return false;
+            }
+            else if(expense_value==='Tech_assets' && amount_value>5000){
+                alert("You cannot claim amount greater than Rs.5000 for Tech Assets");
+                return false;
+            }
+            
+            return true;
+        }
+        
+    </script>
+</head>
+<body>
+    <div>
+        <h3>Enter the following fields to make a new Reimbursement Request : </h3>
+        <form action="/new_request" method="POST" onsubmit="return validateForm()" enctype="multipart/form-data">
+            <label for="user_id">USER ID :</label>
+            <input type="text" id="user_id" name="user_id" value="{{user_id}}" readonly>
+            <br><br>
+            <label for="expense_type">Expense Type :</label>
+            <select name="expense_type" id="expense_type" required>
+                <option value="Travelling">Travelling</option>
+                <option value="Relocation">Relocation</option>
+                <option value="Tech_assets">Tech Assets</option>
+            </select>
+            <br><br>
+
+            <label for="amount">Amount(in Rupees) : </label>
+            <input type="number" name="amount" id="amount"  placeholder="Enter the amount" value="0" min="1"  required>
+            <br>
+            <br>
+            <label for="date">Date :</label>
+            <input type="date" name="date" required>
+            <br><br>
+
+            <label for="receipt">Add the relevant Receipt/Document :</label>
+            <input type="file" name="receipt" id="receipt" accept=".jpg" placeholder="Add image with .jpg extension" multiple required>
+            <br><br>
+            {% if msg2 %}
+                <h6>{{msg2}}</h6>
+            {% endif %}
+
+            <button type="submit">Submit</button>
+            {% if msg %}
+                <h6>{{msg}}</h6>
+            {% endif %}
+            
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delete Employee</title>
 
     <style>
          p{
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
         }
-        body{
+        /* body{
             display:flex;
             margin: 0;
-            
-            background-color:rgba(60, 158, 233, 0.416);
-        }
+        } */
         aside{
             background-color:rgb(223, 108, 82);
             width: 250px;
@@ -23,8 +22,9 @@
             box-sizing: border-box;
             padding: 15px;
             position:fixed;
-            font-size: 30px;
+            font-size: 20px;
             border: darkslategrey solid;
+            border-top: 0px;
         }
         .sidebar a{
             display: block;
@@ -70,11 +70,43 @@
         tr:hover{
             background-color:beige;
         }
+        header{
+            background-color: rgb(243, 240, 240);
+            color: black;
+            padding: 10px 20px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            height: 60px; 
+        }
+        header .title {
+            font-size: 30px;
+            
+            font-weight:bolder;
+        }
+        header .icons{
+             display: flex;
+             gap: 20px;
+        } 
     </style>
     
     
 </head>
 <body>
+    <header>
+        <div class="title">
+            <i class="fas fa-file-invoice-dollar" id="logo"></i>
+            ReimburseHub
+        </div>
+        <div class="icons">
+        <i class="fas fa-home" id="icons"></i> 
+        <i class="fas fa-cog" id="icons"></i>
+        <i class="fas fa-sign-out-alt" id="icons"></i>
+        <i class="fas fa-user"></i> 
+        {{admin_name}}
+        </div>        
+
+    </header>
     <aside>
         
         <nav class="sidebar">

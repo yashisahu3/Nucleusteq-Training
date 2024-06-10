@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reimbursement Portal</title>
     <style>
-
-        body{
-            background-color:rgba(60, 158, 233, 0.416);
+        label{
+            font-size: 20px;
         }
+
+        
         div{
             background-color: snow;
             border-style: double;
-            border-color: darkblue;
-            border-width: medium;
-            border-radius: 15px;
-            margin-top: 100px;
-            margin-left: 500px;
-            margin-right: 500px;
+            background-color: rgb(243, 240, 240);
+            /* border-color: darkblue; */
+            border-color: rgb(223, 108, 82);
+            /* border-width: medium; */
+            border-radius: 15px; 
+            position: absolute;
+            top: 50%;
+            left: 50%;
             padding: 50px;
             font-size: 25px;
+            transform: translate(-50%,-50%);
+            width: 400px;
         }
         input{
                 width:100%;
@@ -46,10 +51,10 @@
     <div>
         
         <form action="/" method='POST'>
-            <label for="email_id">Email </label> 
+            <label for="email_id">EMAIL ID </label> 
             <input type="email" name="email_id" required>
             <br><br>
-            <label for="password">Password </label> 
+            <label for="password">PASSWORD </label> 
             <input type="password" name="password" required>
             <br>
             <br>

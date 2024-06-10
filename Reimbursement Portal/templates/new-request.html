@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create a Reimbursement Request</title>
     <style>
-       body{
-            background-color:rgba(60, 158, 233, 0.416);
-        }
+       
         div{
             background-color: snow;
             border-style: double;
             border-color: darkblue;
             border-width: medium;
             border-radius: 15px;
-            margin-top: 50px;
-            margin-left: 200px;
-            margin-right: 200px;
+            position: absolute;
+            top: 45%;
+            left: 50%;
             padding: 50px;
             font-size: 25px;
+            width: 700px;
+            transform: translate(-50%,-33%);
         }
         input{
             border-radius:5px;
@@ -76,7 +76,7 @@
             <br><br>
 
             <label for="amount">Amount(in Rupees) : </label>
-            <input type="number" name="amount" placeholder="Enter the amount" value="0" min="1"  required>
+            <input type="number" name="amount" id="amount"  placeholder="Enter the amount" value="0" min="1"  required>
             <br>
             <br>
             <label for="date">Date :</label>

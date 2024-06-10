@@ -284,14 +284,6 @@
 2024-06-03 22:42:01,603 - app -INFO - Request Method : GET
 2024-06-03 22:42:01,603 - app -INFO - Employee Page Accessed
 2024-06-03 22:42:02,618 - app -INFO - Response Status: 200 OK
-2024-06-03 22:42:02,634 - app -INFO - Request Method : POST
-2024-06-03 22:42:02,634 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 22:42:02,642 - app -INFO - Request Method : POST
-2024-06-03 22:42:02,650 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 22:42:02,942 - app -INFO - Request Method : POST
-2024-06-03 22:42:02,948 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 22:42:02,948 - app -INFO - Request Method : POST
-2024-06-03 22:42:02,948 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 22:42:02,965 - app -INFO - Request Method : GET
 2024-06-03 22:42:02,965 - app -INFO - Response Status: 200 OK
 2024-06-03 22:42:02,973 - app -INFO - Request Method : GET
@@ -301,8 +293,6 @@
 2024-06-03 22:42:02,994 - app -INFO - Request Method : GET
 2024-06-03 22:42:02,994 - app -INFO - Admin Dashboard Page Accessed
 2024-06-03 22:42:03,994 - app -INFO - Response Status: 200 OK
-2024-06-03 22:42:04,002 - app -INFO - Request Method : GET
-2024-06-03 22:42:04,010 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 22:42:04,018 - app -INFO - Request Method : GET
 2024-06-03 22:42:04,026 - app -INFO - Manager Page Accessed
 2024-06-03 22:42:04,026 - app -INFO - Response Status: 200 OK
@@ -371,15 +361,6 @@
 2024-06-03 22:42:45,201 - app -INFO - Response Status: 200 OK
 2024-06-03 22:42:45,209 - app -INFO - Request Method : GET
 2024-06-03 22:42:45,209 - app -INFO - Employee Page Accessed
-2024-06-03 22:42:46,274 - app -INFO - Response Status: 200 OK
-2024-06-03 22:42:46,281 - app -INFO - Request Method : POST
-2024-06-03 22:42:46,281 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 22:42:46,290 - app -INFO - Request Method : POST
-2024-06-03 22:42:46,290 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 22:42:46,298 - app -INFO - Request Method : POST
-2024-06-03 22:42:46,306 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 22:42:46,309 - app -INFO - Request Method : POST
-2024-06-03 22:42:46,309 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 22:52:48,950 - app -INFO - Login Page accessed
 2024-06-03 22:52:50,652 - app -INFO - Response Status: 200 OK
 2024-06-03 22:52:50,670 - app -INFO - Request Method : POST
@@ -422,8 +403,6 @@
 2024-06-03 22:52:54,588 - app -INFO - Request Method : GET
 2024-06-03 22:52:54,590 - app -INFO - Admin Dashboard Page Accessed
 2024-06-03 22:52:56,132 - app -INFO - Response Status: 200 OK
-2024-06-03 22:52:56,157 - app -INFO - Request Method : GET
-2024-06-03 22:52:56,165 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 22:52:56,175 - app -INFO - Request Method : GET
 2024-06-03 22:52:56,181 - app -INFO - Manager Page Accessed
 2024-06-03 22:52:56,192 - app -INFO - Response Status: 200 OK
@@ -543,8 +522,6 @@
 2024-06-03 22:59:45,819 - app -INFO - Admin Changed Status of Reimbursement Request
 2024-06-03 22:59:46,848 - app -INFO - Response Status: 200 OK
 2024-06-03 22:59:46,856 - app -INFO - Request Method : POST
-2024-06-03 22:59:46,856 - app -INFO - Admin Dashboard Page Accessed
-2024-06-03 22:59:46,864 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 22:59:46,872 - app -INFO - Request Method : GET
 2024-06-03 22:59:46,896 - app -INFO - Response Status: 200 OK
 2024-06-03 22:59:46,904 - app -INFO - Request Method : POST
@@ -605,14 +582,6 @@
 2024-06-03 23:00:07,753 - app -INFO - Request Method : GET
 2024-06-03 23:00:07,753 - app -INFO - Employee Page Accessed
 2024-06-03 23:00:09,528 - app -INFO - Response Status: 200 OK
-2024-06-03 23:00:09,546 - app -INFO - Request Method : POST
-2024-06-03 23:00:09,546 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:00:09,552 - app -INFO - Request Method : POST
-2024-06-03 23:00:09,560 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:00:09,568 - app -INFO - Request Method : POST
-2024-06-03 23:00:09,568 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:00:09,578 - app -INFO - Request Method : POST
-2024-06-03 23:00:09,584 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:00:09,595 - app -INFO - Request Method : GET
 2024-06-03 23:00:09,595 - app -INFO - Response Status: 200 OK
 2024-06-03 23:00:09,601 - app -INFO - Request Method : GET
@@ -695,14 +664,6 @@
 2024-06-03 23:03:08,964 - app -INFO - Request Method : GET
 2024-06-03 23:03:08,969 - app -INFO - Employee Page Accessed
 2024-06-03 23:03:10,573 - app -INFO - Response Status: 200 OK
-2024-06-03 23:03:10,592 - app -INFO - Request Method : POST
-2024-06-03 23:03:10,593 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:03:10,600 - app -INFO - Request Method : POST
-2024-06-03 23:03:10,606 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:03:10,614 - app -INFO - Request Method : POST
-2024-06-03 23:03:10,614 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:03:10,622 - app -INFO - Request Method : POST
-2024-06-03 23:03:10,622 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:03:10,638 - app -INFO - Request Method : GET
 2024-06-03 23:03:10,638 - app -INFO - Response Status: 200 OK
 2024-06-03 23:03:10,655 - app -INFO - Request Method : GET
@@ -785,14 +746,6 @@
 2024-06-03 23:20:34,164 - app -INFO - Request Method : GET
 2024-06-03 23:20:34,164 - app -INFO - Employee Page Accessed
 2024-06-03 23:20:35,153 - app -INFO - Response Status: 200 OK
-2024-06-03 23:20:35,168 - app -INFO - Request Method : POST
-2024-06-03 23:20:35,168 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:20:35,184 - app -INFO - Request Method : POST
-2024-06-03 23:20:35,184 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:20:35,184 - app -INFO - Request Method : POST
-2024-06-03 23:20:35,184 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:20:35,200 - app -INFO - Request Method : POST
-2024-06-03 23:20:35,200 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:20:35,200 - app -INFO - Request Method : GET
 2024-06-03 23:20:35,200 - app -INFO - Response Status: 200 OK
 2024-06-03 23:20:35,200 - app -INFO - Request Method : GET
@@ -877,14 +830,6 @@
 2024-06-03 23:39:15,117 - app -INFO - Request Method : GET
 2024-06-03 23:39:15,117 - app -INFO - Employee Page Accessed
 2024-06-03 23:39:15,713 - app -INFO - Response Status: 200 OK
-2024-06-03 23:39:15,713 - app -INFO - Request Method : POST
-2024-06-03 23:39:15,713 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:39:15,729 - app -INFO - Request Method : POST
-2024-06-03 23:39:15,729 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:39:15,729 - app -INFO - Request Method : POST
-2024-06-03 23:39:15,729 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:39:15,729 - app -INFO - Request Method : POST
-2024-06-03 23:39:15,729 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:39:15,745 - app -INFO - Request Method : GET
 2024-06-03 23:39:15,745 - app -INFO - Response Status: 200 OK
 2024-06-03 23:39:15,745 - app -INFO - Request Method : GET
@@ -894,8 +839,6 @@
 2024-06-03 23:39:15,745 - app -INFO - Request Method : GET
 2024-06-03 23:39:15,760 - app -INFO - Admin Dashboard Page Accessed
 2024-06-03 23:39:16,388 - app -INFO - Response Status: 200 OK
-2024-06-03 23:39:16,404 - app -INFO - Request Method : GET
-2024-06-03 23:39:16,407 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:39:16,407 - app -INFO - Request Method : GET
 2024-06-03 23:39:16,420 - app -INFO - Manager Page Accessed
 2024-06-03 23:39:16,420 - app -INFO - Response Status: 200 OK
@@ -971,14 +914,6 @@
 2024-06-03 23:40:02,672 - app -INFO - Request Method : GET
 2024-06-03 23:40:02,672 - app -INFO - Employee Page Accessed
 2024-06-03 23:40:03,739 - app -INFO - Response Status: 200 OK
-2024-06-03 23:40:03,739 - app -INFO - Request Method : POST
-2024-06-03 23:40:03,739 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:40:03,755 - app -INFO - Request Method : POST
-2024-06-03 23:40:03,755 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:40:03,755 - app -INFO - Request Method : POST
-2024-06-03 23:40:03,755 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:40:03,771 - app -INFO - Request Method : POST
-2024-06-03 23:40:03,771 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:40:03,771 - app -INFO - Request Method : GET
 2024-06-03 23:40:03,771 - app -INFO - Response Status: 200 OK
 2024-06-03 23:40:03,771 - app -INFO - Request Method : GET
@@ -1000,10 +935,6 @@
 2024-06-03 23:40:04,916 - app -INFO - Admin Dashboard Page Accessed
 2024-06-03 23:40:04,916 - app -INFO - Admin Changed Status of Reimbursement Request
 2024-06-03 23:40:05,983 - app -INFO - Response Status: 200 OK
-2024-06-03 23:40:05,983 - app -INFO - Request Method : POST
-2024-06-03 23:40:05,983 - app -INFO - Admin Dashboard Page Accessed
-2024-06-03 23:40:05,983 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:40:06,001 - app -INFO - Request Method : GET
 2024-06-03 23:40:06,015 - app -INFO - Response Status: 200 OK
 2024-06-03 23:40:06,030 - app -INFO - Request Method : POST
 2024-06-03 23:40:06,030 - app -INFO - Response Status: 200 OK
@@ -1032,58 +963,6 @@
 2024-06-03 23:40:07,552 - app -INFO - Admin Deleted Employee/Manager
 2024-06-03 23:40:07,552 - app -INFO - Response Status: 200 OK
 2024-06-03 23:40:07,568 - app -INFO - Request Method : GET
-2024-06-03 23:40:07,568 - app -INFO - Audit Trail Page Accessed
-2024-06-03 23:40:07,583 - app -INFO - Response Status: 200 OK
-2024-06-03 23:40:07,599 - app -INFO - Request Method : POST
-2024-06-03 23:40:07,599 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:43:47,624 - app -INFO - Request Method : POST
-2024-06-03 23:43:47,624 - app -INFO - Login Page accessed
-2024-06-03 23:43:47,671 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:47,671 - app -INFO - Request Method : POST
-2024-06-03 23:43:47,671 - app -INFO - Login Page accessed
-2024-06-03 23:43:48,722 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:48,722 - app -INFO - Request Method : POST
-2024-06-03 23:43:48,722 - app -INFO - Login Page accessed
-2024-06-03 23:43:48,737 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:48,746 - app -INFO - Request Method : GET
-2024-06-03 23:43:48,746 - app -INFO - Employee Registration Page accessed
-2024-06-03 23:43:48,753 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:48,753 - app -INFO - Request Method : POST
-2024-06-03 23:43:48,753 - app -INFO - Employee Registration Page accessed
-2024-06-03 23:43:49,287 - app -INFO - Request Method : POST
-2024-06-03 23:43:49,287 - app -INFO - Admin Login Page Accessed
-2024-06-03 23:43:49,287 - app -INFO - Response Status: 302 FOUND
-2024-06-03 23:43:49,302 - app -INFO - Request Method : POST
-2024-06-03 23:43:49,302 - app -INFO - Admin Login Page Accessed
-2024-06-03 23:43:49,302 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:49,318 - app -INFO - Request Method : GET
-2024-06-03 23:43:49,318 - app -INFO - Employee Page Accessed
-2024-06-03 23:43:50,495 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:50,495 - app -INFO - Request Method : POST
-2024-06-03 23:43:50,495 - app -INFO - Reimbursement Request Page Accessed
-2024-06-03 23:43:50,510 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:50,510 - app -INFO - Request Method : GET
-2024-06-03 23:43:50,510 - app -INFO - Employee Page Accessed
-2024-06-03 23:43:51,562 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:51,578 - app -INFO - Request Method : POST
-2024-06-03 23:43:51,578 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:43:51,578 - app -INFO - Request Method : POST
-2024-06-03 23:43:51,578 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:43:51,578 - app -INFO - Request Method : POST
-2024-06-03 23:43:51,578 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:43:51,593 - app -INFO - Request Method : POST
-2024-06-03 23:43:51,593 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:43:51,593 - app -INFO - Request Method : GET
-2024-06-03 23:43:51,593 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:51,609 - app -INFO - Request Method : GET
-2024-06-03 23:43:51,609 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:51,609 - app -INFO - Request Method : GET
-2024-06-03 23:43:51,609 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:51,609 - app -INFO - Request Method : GET
-2024-06-03 23:43:51,609 - app -INFO - Admin Dashboard Page Accessed
-2024-06-03 23:43:52,613 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:52,613 - app -INFO - Request Method : GET
-2024-06-03 23:43:52,613 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:43:52,629 - app -INFO - Request Method : GET
 2024-06-03 23:43:52,629 - app -INFO - Manager Page Accessed
 2024-06-03 23:43:52,629 - app -INFO - Response Status: 200 OK
@@ -1092,11 +971,6 @@
 2024-06-03 23:43:52,660 - app -INFO - Response Status: 200 OK
 2024-06-03 23:43:52,660 - app -INFO - Request Method : POST
 2024-06-03 23:43:52,660 - app -INFO - Admin Dashboard Page Accessed
-2024-06-03 23:43:52,676 - app -INFO - Admin Changed Status of Reimbursement Request
-2024-06-03 23:43:53,681 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:53,681 - app -INFO - Request Method : POST
-2024-06-03 23:43:53,681 - app -INFO - Admin Dashboard Page Accessed
-2024-06-03 23:43:53,681 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:43:53,681 - app -INFO - Request Method : GET
 2024-06-03 23:43:53,712 - app -INFO - Response Status: 200 OK
 2024-06-03 23:43:53,712 - app -INFO - Request Method : POST
@@ -1125,12 +999,6 @@
 2024-06-03 23:43:55,187 - app -INFO - Delete Employee Page Accessed
 2024-06-03 23:43:55,203 - app -INFO - Admin Deleted Employee/Manager
 2024-06-03 23:43:55,203 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:55,203 - app -INFO - Request Method : GET
-2024-06-03 23:43:55,203 - app -INFO - Audit Trail Page Accessed
-2024-06-03 23:43:55,219 - app -INFO - Response Status: 200 OK
-2024-06-03 23:43:55,234 - app -INFO - Request Method : POST
-2024-06-03 23:43:55,234 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:55:38,779 - app -INFO - Request Method : POST
 2024-06-03 23:55:38,779 - app -INFO - Login Page accessed
 2024-06-03 23:55:38,847 - app -INFO - Response Status: 200 OK
 2024-06-03 23:55:38,867 - app -INFO - Request Method : POST
@@ -1154,31 +1022,8 @@
 2024-06-03 23:55:40,637 - app -INFO - Employee Page Accessed
 2024-06-03 23:55:41,750 - app -INFO - Response Status: 200 OK
 2024-06-03 23:55:41,765 - app -INFO - Request Method : POST
-2024-06-03 23:55:41,765 - app -INFO - Reimbursement Request Page Accessed
-2024-06-03 23:55:41,765 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:41,783 - app -INFO - Request Method : GET
-2024-06-03 23:55:41,783 - app -INFO - Employee Page Accessed
-2024-06-03 23:55:42,865 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:42,885 - app -INFO - Request Method : POST
-2024-06-03 23:55:42,885 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:55:42,904 - app -INFO - Request Method : POST
-2024-06-03 23:55:42,904 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:55:42,916 - app -INFO - Request Method : POST
-2024-06-03 23:55:42,918 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:55:42,918 - app -INFO - Request Method : POST
-2024-06-03 23:55:42,918 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:55:42,918 - app -INFO - Request Method : GET
 2024-06-03 23:55:42,918 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:42,939 - app -INFO - Request Method : GET
-2024-06-03 23:55:42,940 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:42,951 - app -INFO - Request Method : GET
-2024-06-03 23:55:42,952 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:42,955 - app -INFO - Request Method : GET
-2024-06-03 23:55:42,955 - app -INFO - Admin Dashboard Page Accessed
-2024-06-03 23:55:44,116 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:44,131 - app -INFO - Request Method : GET
-2024-06-03 23:55:44,131 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:55:44,147 - app -INFO - Request Method : GET
 2024-06-03 23:55:44,147 - app -INFO - Manager Page Accessed
 2024-06-03 23:55:44,147 - app -INFO - Response Status: 200 OK
 2024-06-03 23:55:44,162 - app -INFO - Request Method : POST
@@ -1211,57 +1056,6 @@
 2024-06-03 23:55:46,634 - app -INFO - Insert Department Page Accessed
 2024-06-03 23:55:46,643 - app -INFO - Response Status: 200 OK
 2024-06-03 23:55:46,648 - app -INFO - Request Method : POST
-2024-06-03 23:55:46,648 - app -INFO - Insert Department Page Accessed
-2024-06-03 23:55:46,967 - app -INFO - Request Method : GET
-2024-06-03 23:55:46,967 - app -INFO - Delete Employee Page Accessed
-2024-06-03 23:55:46,991 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:46,999 - app -INFO - Request Method : POST
-2024-06-03 23:55:46,999 - app -INFO - Delete Employee Page Accessed
-2024-06-03 23:55:46,999 - app -INFO - Admin Deleted Employee/Manager
-2024-06-03 23:55:46,999 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:46,999 - app -INFO - Request Method : GET
-2024-06-03 23:55:46,999 - app -INFO - Audit Trail Page Accessed
-2024-06-03 23:55:47,030 - app -INFO - Response Status: 200 OK
-2024-06-03 23:55:47,030 - app -INFO - Request Method : POST
-2024-06-03 23:55:47,030 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:59:22,347 - app -INFO - Request Method : POST
-2024-06-03 23:59:22,347 - app -INFO - Login Page accessed
-2024-06-03 23:59:23,351 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:23,351 - app -INFO - Request Method : POST
-2024-06-03 23:59:23,351 - app -INFO - Login Page accessed
-2024-06-03 23:59:24,339 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:24,355 - app -INFO - Request Method : POST
-2024-06-03 23:59:24,355 - app -INFO - Login Page accessed
-2024-06-03 23:59:24,355 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:24,371 - app -INFO - Request Method : GET
-2024-06-03 23:59:24,371 - app -INFO - Employee Registration Page accessed
-2024-06-03 23:59:24,371 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:24,386 - app -INFO - Request Method : POST
-2024-06-03 23:59:24,386 - app -INFO - Employee Registration Page accessed
-2024-06-03 23:59:24,386 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:24,402 - app -INFO - Request Method : POST
-2024-06-03 23:59:24,402 - app -INFO - Admin Login Page Accessed
-2024-06-03 23:59:24,402 - app -INFO - Response Status: 302 FOUND
-2024-06-03 23:59:24,417 - app -INFO - Request Method : POST
-2024-06-03 23:59:24,417 - app -INFO - Admin Login Page Accessed
-2024-06-03 23:59:24,417 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:24,433 - app -INFO - Request Method : GET
-2024-06-03 23:59:24,433 - app -INFO - Employee Page Accessed
-2024-06-03 23:59:25,469 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:25,469 - app -INFO - Request Method : POST
-2024-06-03 23:59:25,469 - app -INFO - Reimbursement Request Page Accessed
-2024-06-03 23:59:25,485 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:25,489 - app -INFO - Request Method : GET
-2024-06-03 23:59:25,489 - app -INFO - Employee Page Accessed
-2024-06-03 23:59:26,491 - app -INFO - Response Status: 200 OK
-2024-06-03 23:59:26,491 - app -INFO - Request Method : POST
-2024-06-03 23:59:26,491 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:59:26,505 - app -INFO - Request Method : POST
-2024-06-03 23:59:26,505 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:59:26,505 - app -INFO - Request Method : POST
-2024-06-03 23:59:26,505 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-03 23:59:26,521 - app -INFO - Request Method : POST
-2024-06-03 23:59:26,521 - app -INFO - Response Status: 400 BAD REQUEST
 2024-06-03 23:59:26,521 - app -INFO - Request Method : GET
 2024-06-03 23:59:26,521 - app -INFO - Response Status: 200 OK
 2024-06-03 23:59:26,521 - app -INFO - Request Method : GET
@@ -1819,386 +1613,6 @@
 2024-06-06 16:32:08,310 - app -INFO - Response Status: 200 OK
 2024-06-06 16:32:08,327 - app -INFO - Request Method : GET
 2024-06-06 16:32:08,334 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,109 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,124 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,137 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,149 - app -INFO - Reimbursement Request Submitted
-2024-06-06 16:32:09,177 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,192 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,205 - app -INFO - Reimbursement Request Submitted
-2024-06-06 16:32:09,229 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,240 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,248 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-06 16:32:09,261 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,267 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,277 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,283 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,299 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,305 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,317 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,317 - app -INFO - Admin Dashboard Page Accessed
-2024-06-06 16:32:09,403 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,412 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,417 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-06 16:32:09,435 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,442 - app -INFO - Manager Page Accessed
-2024-06-06 16:32:09,446 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,457 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,474 - app -INFO - Manager Approved/Declined Reimbursement Request
-2024-06-06 16:32:09,480 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,493 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,494 - app -INFO - Admin Dashboard Page Accessed
-2024-06-06 16:32:09,511 - app -INFO - Admin Changed Status of Reimbursement Request
-2024-06-06 16:32:09,517 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,520 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,520 - app -INFO - Admin Dashboard Page Accessed
-2024-06-06 16:32:09,522 - app -INFO - Response Status: 400 BAD REQUEST
-2024-06-06 16:32:09,533 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,594 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,604 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,618 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,634 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,676 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,690 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,691 - app -INFO - Admin Dashboard Page Accessed
-2024-06-06 16:32:09,702 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,715 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,716 - app -INFO - Delete Department Page Accessed
-2024-06-06 16:32:09,724 - app -INFO - Admin Deleted Department
-2024-06-06 16:32:09,781 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,794 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,795 - app -INFO - Delete Department Page Accessed
-2024-06-06 16:32:09,804 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,817 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,817 - app -INFO - Insert Department Page Accessed
-2024-06-06 16:32:09,854 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,867 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,868 - app -INFO - Insert Department Page Accessed
-2024-06-06 16:32:09,883 - app -INFO - Admin Inserted Department
-2024-06-06 16:32:09,885 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,898 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,898 - app -INFO - Delete Employee Page Accessed
-2024-06-06 16:32:09,952 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,964 - app -INFO - Request Method : POST
-2024-06-06 16:32:09,965 - app -INFO - Delete Employee Page Accessed
-2024-06-06 16:32:09,980 - app -INFO - Admin Deleted Employee/Manager
-2024-06-06 16:32:09,981 - app -INFO - Response Status: 200 OK
-2024-06-06 16:32:09,991 - app -INFO - Request Method : GET
-2024-06-06 16:32:09,992 - app -INFO - Audit Trail Page Accessed
-2024-06-06 16:32:10,065 - app -INFO - Response Status: 200 OK
-2024-06-06 16:33:46,835 - app -INFO - Request Method : GET
-2024-06-06 16:33:46,837 - app -INFO - Login Page accessed
-2024-06-06 16:33:46,869 - app -INFO - Response Status: 200 OK
-2024-06-06 16:33:52,101 - app -INFO - Request Method : GET
-2024-06-06 16:33:52,103 - app -INFO - Admin Login Page Accessed
-2024-06-06 16:33:52,107 - app -INFO - Response Status: 200 OK
-2024-06-06 16:34:08,426 - app -INFO - Request Method : POST
-2024-06-06 16:34:08,433 - app -INFO - Admin Login Page Accessed
-2024-06-06 16:34:08,513 - app -INFO - Response Status: 302 FOUND
-2024-06-06 16:34:08,532 - app -INFO - Request Method : GET
-2024-06-06 16:34:08,534 - app -INFO - Admin Dashboard Page Accessed
-2024-06-06 16:34:08,570 - app -INFO - Response Status: 200 OK
-2024-06-06 16:34:30,120 - app -INFO - Request Method : GET
-2024-06-06 16:34:30,153 - app -INFO - Response Status: 200 OK
-2024-06-06 16:34:47,685 - app -INFO - Request Method : GET
-2024-06-06 16:34:47,689 - app -INFO - Delete Employee Page Accessed
-2024-06-06 16:34:47,740 - app -INFO - Response Status: 200 OK
-2024-06-06 16:34:55,236 - app -INFO - Request Method : POST
-2024-06-06 16:34:55,237 - app -INFO - Delete Employee Page Accessed
-2024-06-06 16:34:55,266 - app -INFO - Admin Deleted Employee/Manager
-2024-06-06 16:34:55,271 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:15,733 - app -INFO - Request Method : GET
-2024-06-06 16:35:15,737 - app -INFO - Insert Department Page Accessed
-2024-06-06 16:35:15,751 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:20,327 - app -INFO - Request Method : GET
-2024-06-06 16:35:20,329 - app -INFO - Delete Department Page Accessed
-2024-06-06 16:35:20,345 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:29,445 - app -INFO - Request Method : POST
-2024-06-06 16:35:29,455 - app -INFO - Delete Department Page Accessed
-2024-06-06 16:35:29,475 - app -INFO - Admin Deleted Department
-2024-06-06 16:35:29,479 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:31,794 - app -INFO - Request Method : GET
-2024-06-06 16:35:31,794 - app -INFO - Insert Department Page Accessed
-2024-06-06 16:35:31,796 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:36,244 - app -INFO - Request Method : POST
-2024-06-06 16:35:36,245 - app -INFO - Insert Department Page Accessed
-2024-06-06 16:35:36,257 - app -INFO - Admin Inserted Department
-2024-06-06 16:35:36,260 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:39,227 - app -INFO - Request Method : GET
-2024-06-06 16:35:39,230 - app -INFO - Delete Department Page Accessed
-2024-06-06 16:35:39,239 - app -INFO - Response Status: 200 OK
-2024-06-06 16:35:42,826 - app -INFO - Request Method : GET
-2024-06-06 16:35:42,826 - app -INFO - Audit Trail Page Accessed
-2024-06-06 16:35:42,870 - app -INFO - Response Status: 200 OK
-2024-06-06 16:38:11,812 - app -INFO - Request Method : GET
-2024-06-06 16:38:11,823 - app -INFO - Response Status: 200 OK
-2024-06-06 23:08:19,280 - app -INFO - Request Method : GET
-2024-06-06 23:08:19,284 - app -INFO - Login Page accessed
-2024-06-06 23:08:19,307 - app -INFO - Response Status: 200 OK
-2024-06-06 23:08:19,774 - app -INFO - Request Method : GET
-2024-06-06 23:08:19,830 - app -ERROR - Page not found: /favicon.ico
-2024-06-06 23:08:19,847 - app -INFO - Response Status: 404 NOT FOUND
-2024-06-06 23:12:31,713 - app -INFO - Request Method : POST
-2024-06-06 23:12:31,714 - app -INFO - Login Page accessed
-2024-06-06 23:12:31,809 - app -INFO - Response Status: 200 OK
-2024-06-06 23:12:34,477 - app -INFO - Request Method : GET
-2024-06-06 23:12:34,479 - app -INFO - Admin Login Page Accessed
-2024-06-06 23:12:34,489 - app -INFO - Response Status: 200 OK
-2024-06-06 23:12:45,392 - app -INFO - Request Method : POST
-2024-06-06 23:12:45,394 - app -INFO - Admin Login Page Accessed
-2024-06-06 23:12:45,447 - app -INFO - Response Status: 302 FOUND
-2024-06-06 23:12:45,464 - app -INFO - Request Method : GET
-2024-06-06 23:12:45,465 - app -INFO - Admin Dashboard Page Accessed
-2024-06-06 23:12:45,512 - app -INFO - Response Status: 200 OK
-2024-06-06 23:13:27,337 - app -INFO - Request Method : GET
-2024-06-06 23:13:27,340 - app -INFO - Delete Employee Page Accessed
-2024-06-06 23:13:27,393 - app -INFO - Response Status: 200 OK
-2024-06-06 23:14:37,259 - app -INFO - Request Method : POST
-2024-06-06 23:14:37,260 - app -INFO - Login Page accessed
-2024-06-06 23:14:37,278 - app -INFO - Response Status: 200 OK
-2024-06-06 23:15:07,293 - app -INFO - Request Method : POST
-2024-06-06 23:15:07,294 - app -INFO - Login Page accessed
-2024-06-06 23:15:07,337 - app -INFO - Response Status: 200 OK
-2024-06-06 23:42:05,296 - app -INFO - Request Method : GET
-2024-06-06 23:42:05,300 - app -INFO - Login Page accessed
-2024-06-06 23:42:05,324 - app -INFO - Response Status: 200 OK
-2024-06-06 23:43:19,599 - app -INFO - Request Method : POST
-2024-06-06 23:43:19,600 - app -INFO - Login Page accessed
-2024-06-06 23:43:19,677 - app -INFO - Response Status: 200 OK
-2024-06-06 23:45:23,513 - app -INFO - Request Method : GET
-2024-06-06 23:45:24,256 - app -INFO - Response Status: 200 OK
-2024-06-06 23:46:26,320 - app -INFO - Request Method : GET
-2024-06-06 23:46:26,321 - app -INFO - Login Page accessed
-2024-06-06 23:46:26,323 - app -INFO - Response Status: 200 OK
-2024-06-06 23:49:33,287 - app -INFO - Request Method : GET
-2024-06-06 23:49:33,295 - app -INFO - Login Page accessed
-2024-06-06 23:49:33,656 - app -INFO - Response Status: 200 OK
-2024-06-07 13:45:30,668 - app -INFO - Request Method : GET
-2024-06-07 13:45:30,673 - app -INFO - Login Page accessed
-2024-06-07 13:45:30,691 - app -INFO - Response Status: 200 OK
-2024-06-07 13:45:30,973 - app -INFO - Request Method : GET
-2024-06-07 13:45:30,974 - app -ERROR - Page not found: /favicon.ico
-2024-06-07 13:45:30,974 - app -INFO - Response Status: 404 NOT FOUND
-2024-06-07 13:45:44,760 - app -INFO - Request Method : GET
-2024-06-07 13:45:44,762 - app -INFO - Admin Login Page Accessed
-2024-06-07 13:45:44,831 - app -INFO - Response Status: 200 OK
-2024-06-08 20:13:11,830 - app -INFO - Request Method : GET
-2024-06-08 20:13:11,830 - app -INFO - Login Page accessed
-2024-06-08 20:13:11,846 - app -INFO - Response Status: 200 OK
-2024-06-08 20:13:12,239 - app -INFO - Request Method : GET
-2024-06-08 20:13:12,239 - app -ERROR - Page not found: /favicon.ico
-2024-06-08 20:13:12,255 - app -INFO - Response Status: 404 NOT FOUND
-2024-06-08 20:13:18,363 - app -INFO - Request Method : GET
-2024-06-08 20:13:18,363 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:13:18,371 - app -INFO - Response Status: 200 OK
-2024-06-08 20:13:28,672 - app -INFO - Request Method : POST
-2024-06-08 20:13:28,680 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:13:28,793 - app -INFO - Response Status: 302 FOUND
-2024-06-08 20:13:28,820 - app -INFO - Request Method : GET
-2024-06-08 20:13:28,820 - app -INFO - Admin Dashboard Page Accessed
-2024-06-08 20:13:28,866 - app -INFO - Response Status: 200 OK
-2024-06-08 20:14:15,975 - app -INFO - Request Method : GET
-2024-06-08 20:14:15,975 - app -INFO - Audit Trail Page Accessed
-2024-06-08 20:14:16,039 - app -INFO - Response Status: 200 OK
-2024-06-08 20:18:17,778 - app -INFO - Request Method : GET
-2024-06-08 20:18:17,778 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:18:17,778 - app -INFO - Response Status: 200 OK
-2024-06-08 20:19:50,337 - app -INFO - Request Method : GET
-2024-06-08 20:19:50,337 - app -INFO - Employee Registration Page accessed
-2024-06-08 20:19:50,393 - app -INFO - Response Status: 200 OK
-2024-06-08 20:19:55,078 - app -INFO - Request Method : GET
-2024-06-08 20:19:55,086 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:19:55,086 - app -INFO - Response Status: 200 OK
-2024-06-08 20:20:05,682 - app -INFO - Request Method : POST
-2024-06-08 20:20:05,682 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:20:05,698 - app -INFO - Response Status: 302 FOUND
-2024-06-08 20:20:05,714 - app -INFO - Request Method : GET
-2024-06-08 20:20:05,722 - app -INFO - Admin Dashboard Page Accessed
-2024-06-08 20:20:05,732 - app -INFO - Response Status: 200 OK
-2024-06-08 20:20:21,021 - app -INFO - Request Method : GET
-2024-06-08 20:20:21,021 - app -INFO - Delete Employee Page Accessed
-2024-06-08 20:20:21,069 - app -INFO - Response Status: 200 OK
-2024-06-08 20:25:08,830 - app -INFO - Request Method : GET
-2024-06-08 20:25:08,830 - app -INFO - Login Page accessed
-2024-06-08 20:25:08,846 - app -INFO - Response Status: 200 OK
-2024-06-08 20:25:22,952 - app -INFO - Request Method : GET
-2024-06-08 20:25:22,959 - app -INFO - Employee Registration Page accessed
-2024-06-08 20:25:23,040 - app -INFO - Response Status: 200 OK
-2024-06-08 20:26:03,042 - app -INFO - Request Method : GET
-2024-06-08 20:26:03,046 - app -INFO - Login Page accessed
-2024-06-08 20:26:03,066 - app -INFO - Response Status: 200 OK
-2024-06-08 20:26:05,918 - app -INFO - Request Method : GET
-2024-06-08 20:26:05,920 - app -INFO - Employee Registration Page accessed
-2024-06-08 20:26:06,007 - app -INFO - Response Status: 200 OK
-2024-06-08 20:26:17,632 - app -INFO - Request Method : GET
-2024-06-08 20:26:17,640 - app -INFO - Login Page accessed
-2024-06-08 20:26:17,640 - app -INFO - Response Status: 200 OK
-2024-06-08 20:26:23,289 - app -INFO - Request Method : GET
-2024-06-08 20:26:23,294 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:26:23,319 - app -INFO - Response Status: 200 OK
-2024-06-08 20:53:23,015 - app -INFO - Request Method : GET
-2024-06-08 20:53:23,019 - app -INFO - Login Page accessed
-2024-06-08 20:53:23,044 - app -INFO - Response Status: 200 OK
-2024-06-08 20:53:32,632 - app -INFO - Request Method : POST
-2024-06-08 20:53:32,633 - app -INFO - Login Page accessed
-2024-06-08 20:53:32,719 - app -INFO - Response Status: 200 OK
-2024-06-08 20:54:47,641 - app -INFO - Request Method : POST
-2024-06-08 20:54:47,643 - app -INFO - Admin Login Page Accessed
-2024-06-08 20:54:47,660 - app -INFO - Response Status: 302 FOUND
-2024-06-08 20:54:47,681 - app -INFO - Request Method : GET
-2024-06-08 20:54:47,682 - app -INFO - Admin Dashboard Page Accessed
-2024-06-08 20:54:47,711 - app -INFO - Response Status: 200 OK
-2024-06-10 20:00:48,963 - app -INFO - Request Method : GET
-2024-06-10 20:00:48,965 - app -INFO - Login Page accessed
-2024-06-10 20:00:49,002 - app -INFO - Response Status: 200 OK
-2024-06-10 20:00:49,362 - app -INFO - Request Method : GET
-2024-06-10 20:00:49,363 - app -ERROR - Page not found: /favicon.ico
-2024-06-10 20:00:49,364 - app -INFO - Response Status: 404 NOT FOUND
-2024-06-10 20:00:55,717 - app -INFO - Request Method : GET
-2024-06-10 20:00:55,718 - app -INFO - Admin Login Page Accessed
-2024-06-10 20:00:55,745 - app -INFO - Response Status: 200 OK
-2024-06-10 20:01:01,034 - app -INFO - Request Method : GET
-2024-06-10 20:01:01,034 - app -INFO - Employee Registration Page accessed
-2024-06-10 20:01:01,115 - app -INFO - Response Status: 200 OK
-2024-06-10 20:01:17,743 - app -INFO - Request Method : POST
-2024-06-10 20:01:17,744 - app -INFO - Login Page accessed
-2024-06-10 20:01:17,787 - app -INFO - Response Status: 200 OK
-2024-06-10 20:01:28,521 - app -INFO - Request Method : GET
-2024-06-10 20:01:28,561 - app -INFO - Response Status: 200 OK
-2024-06-10 20:14:18,235 - app -INFO - Request Method : GET
-2024-06-10 20:14:18,237 - app -INFO - Login Page accessed
-2024-06-10 20:14:18,251 - app -INFO - Response Status: 200 OK
-2024-06-10 20:14:29,041 - app -INFO - Request Method : POST
-2024-06-10 20:14:29,042 - app -INFO - Login Page accessed
-2024-06-10 20:14:29,110 - app -INFO - Response Status: 200 OK
-2024-06-10 20:21:13,085 - app -INFO - Request Method : GET
-2024-06-10 20:21:13,086 - app -INFO - Login Page accessed
-2024-06-10 20:21:13,087 - app -INFO - Response Status: 200 OK
-2024-06-10 20:21:19,462 - app -INFO - Request Method : POST
-2024-06-10 20:21:19,462 - app -INFO - Login Page accessed
-2024-06-10 20:21:19,498 - app -INFO - Response Status: 200 OK
-2024-06-10 20:21:25,833 - app -INFO - Request Method : GET
-2024-06-10 20:21:25,834 - app -INFO - Login Page accessed
-2024-06-10 20:21:25,835 - app -INFO - Response Status: 200 OK
-2024-06-10 20:21:41,363 - app -INFO - Request Method : POST
-2024-06-10 20:21:41,363 - app -INFO - Login Page accessed
-2024-06-10 20:21:41,385 - app -INFO - Response Status: 200 OK
-2024-06-10 20:22:02,225 - app -INFO - Request Method : GET
-2024-06-10 20:22:02,278 - app -INFO - Response Status: 200 OK
-2024-06-10 20:23:47,847 - app -INFO - Request Method : GET
-2024-06-10 20:23:47,848 - app -INFO - Login Page accessed
-2024-06-10 20:23:47,850 - app -INFO - Response Status: 200 OK
-2024-06-10 20:23:50,426 - app -INFO - Request Method : GET
-2024-06-10 20:23:50,427 - app -INFO - Admin Login Page Accessed
-2024-06-10 20:23:50,431 - app -INFO - Response Status: 200 OK
-2024-06-10 20:23:59,999 - app -INFO - Request Method : POST
-2024-06-10 20:24:00,000 - app -INFO - Admin Login Page Accessed
-2024-06-10 20:24:00,011 - app -INFO - Response Status: 302 FOUND
-2024-06-10 20:24:00,027 - app -INFO - Request Method : GET
-2024-06-10 20:24:00,028 - app -INFO - Admin Dashboard Page Accessed
-2024-06-10 20:24:00,076 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:04,211 - app -INFO - Request Method : GET
-2024-06-10 20:24:04,233 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:09,924 - app -INFO - Request Method : GET
-2024-06-10 20:24:09,926 - app -INFO - Delete Employee Page Accessed
-2024-06-10 20:24:09,956 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:12,982 - app -INFO - Request Method : GET
-2024-06-10 20:24:12,983 - app -INFO - Insert Department Page Accessed
-2024-06-10 20:24:13,006 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:15,049 - app -INFO - Request Method : GET
-2024-06-10 20:24:15,050 - app -INFO - Delete Department Page Accessed
-2024-06-10 20:24:15,076 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:16,951 - app -INFO - Request Method : GET
-2024-06-10 20:24:16,952 - app -INFO - Insert Department Page Accessed
-2024-06-10 20:24:16,954 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:21,682 - app -INFO - Request Method : GET
-2024-06-10 20:24:21,683 - app -INFO - Delete Department Page Accessed
-2024-06-10 20:24:21,691 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:24,647 - app -INFO - Request Method : GET
-2024-06-10 20:24:24,649 - app -INFO - Audit Trail Page Accessed
-2024-06-10 20:24:24,679 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:29,773 - app -INFO - Request Method : GET
-2024-06-10 20:24:29,774 - app -INFO - Delete Department Page Accessed
-2024-06-10 20:24:29,780 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:31,134 - app -INFO - Request Method : GET
-2024-06-10 20:24:31,134 - app -INFO - Audit Trail Page Accessed
-2024-06-10 20:24:31,155 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:33,772 - app -INFO - Request Method : GET
-2024-06-10 20:24:33,773 - app -INFO - Delete Department Page Accessed
-2024-06-10 20:24:33,781 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:35,188 - app -INFO - Request Method : GET
-2024-06-10 20:24:35,189 - app -INFO - Insert Department Page Accessed
-2024-06-10 20:24:35,191 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:36,552 - app -INFO - Request Method : GET
-2024-06-10 20:24:36,553 - app -INFO - Delete Employee Page Accessed
-2024-06-10 20:24:36,560 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:38,111 - app -INFO - Request Method : GET
-2024-06-10 20:24:38,119 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:43,092 - app -INFO - Request Method : GET
-2024-06-10 20:24:43,093 - app -INFO - Admin Dashboard Page Accessed
-2024-06-10 20:24:43,100 - app -INFO - Response Status: 200 OK
-2024-06-10 20:24:55,528 - app -INFO - Request Method : GET
-2024-06-10 20:24:55,529 - app -INFO - Admin Dashboard Page Accessed
-2024-06-10 20:24:55,537 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:04,154 - app -INFO - Request Method : GET
-2024-06-10 20:25:04,154 - app -INFO - Admin Dashboard Page Accessed
-2024-06-10 20:25:04,162 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:05,363 - app -INFO - Request Method : GET
-2024-06-10 20:25:05,371 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:14,600 - app -INFO - Request Method : GET
-2024-06-10 20:25:14,601 - app -INFO - Delete Employee Page Accessed
-2024-06-10 20:25:14,609 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:23,581 - app -INFO - Request Method : GET
-2024-06-10 20:25:23,581 - app -INFO - Insert Department Page Accessed
-2024-06-10 20:25:23,583 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:28,147 - app -INFO - Request Method : GET
-2024-06-10 20:25:28,148 - app -INFO - Insert Department Page Accessed
-2024-06-10 20:25:28,150 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:30,094 - app -INFO - Request Method : GET
-2024-06-10 20:25:30,106 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:32,607 - app -INFO - Request Method : GET
-2024-06-10 20:25:32,608 - app -INFO - Insert Department Page Accessed
-2024-06-10 20:25:32,609 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:35,646 - app -INFO - Request Method : GET
-2024-06-10 20:25:35,647 - app -INFO - Delete Department Page Accessed
-2024-06-10 20:25:35,656 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:38,176 - app -INFO - Request Method : GET
-2024-06-10 20:25:38,178 - app -INFO - Audit Trail Page Accessed
-2024-06-10 20:25:38,196 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:42,852 - app -INFO - Request Method : GET
-2024-06-10 20:25:42,853 - app -INFO - Admin Dashboard Page Accessed
-2024-06-10 20:25:42,862 - app -INFO - Response Status: 200 OK
-2024-06-10 20:25:50,077 - app -INFO - Request Method : GET
-2024-06-10 20:25:50,086 - app -INFO - Response Status: 200 OK
-2024-06-10 20:26:08,124 - app -INFO - Request Method : GET
-2024-06-10 20:26:08,124 - app -INFO - Admin Login Page Accessed
-2024-06-10 20:26:08,125 - app -INFO - Response Status: 200 OK
-2024-06-10 20:26:30,207 - app -INFO - Request Method : POST
-2024-06-10 20:26:30,208 - app -INFO - Login Page accessed
-2024-06-10 20:26:30,223 - app -INFO - Response Status: 200 OK
-2024-06-10 20:26:32,856 - app -INFO - Request Method : GET
-2024-06-10 20:26:32,864 - app -INFO - Response Status: 200 OK
-2024-06-10 20:26:42,039 - app -INFO - Request Method : GET
-2024-06-10 20:26:42,040 - app -INFO - Login Page accessed
-2024-06-10 20:26:42,041 - app -INFO - Response Status: 200 OK
-2024-06-10 22:29:21,226 - app -INFO - Request Method : GET
-2024-06-10 22:29:21,231 - app -INFO - Login Page accessed
-2024-06-10 22:29:21,255 - app -INFO - Response Status: 200 OK
-2024-06-10 22:30:53,965 - app -INFO - Request Method : GET
-2024-06-10 22:30:53,974 - app -INFO - Login Page accessed
-2024-06-10 22:30:53,999 - app -INFO - Response Status: 200 OK
-2024-06-10 22:31:41,920 - app -INFO - Request Method : POST
-2024-06-10 22:31:41,922 - app -INFO - Login Page accessed
-2024-06-10 22:31:42,039 - app -INFO - Response Status: 200 OK
-2024-06-10 22:32:49,611 - app -INFO - Request Method : GET
-2024-06-10 22:32:49,612 - app -INFO - Login Page accessed
-2024-06-10 22:32:49,615 - app -INFO - Response Status: 200 OK
-2024-06-10 22:33:06,189 - app -INFO - Request Method : POST
-2024-06-10 22:33:06,191 - app -INFO - Login Page accessed
-2024-06-10 22:33:06,294 - app -INFO - Response Status: 200 OK
-2024-06-10 22:33:16,386 - app -INFO - Request Method : GET
-2024-06-10 22:33:16,413 - app -INFO - Response Status: 200 OK
-2024-06-10 22:34:17,125 - app -INFO - Request Method : GET
 2024-06-10 22:34:17,126 - app -INFO - Login Page accessed
 2024-06-10 22:34:17,127 - app -INFO - Response Status: 200 OK
 2024-06-10 22:34:19,487 - app -INFO - Request Method : GET

@@ -1,0 +1,67 @@
+p#heading{
+    font-size: 30px;
+}
+body{
+    display:flex;
+    margin: 0;
+    background-color:rgba(60, 158, 233, 0.416); 
+}
+aside{
+    background-color:rgb(223, 108, 82);
+    width: 250px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    position:fixed;
+    font-size: 30px;
+    border: darkslategrey solid;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    
+}
+.sidebar a:hover{
+    background-color: white;
+    color: rgb(223, 108, 82);
+}
+main{
+    font-size: 20px;
+    padding: 75px;
+    flex-grow: 1;
+    margin-left: 250px;
+    
+}
+p{
+    font-weight: bold;
+}
+button{
+    background-color:rgb(223, 108, 82);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+    background-color:azure;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+tr:hover{
+    background-color:beige;
+}

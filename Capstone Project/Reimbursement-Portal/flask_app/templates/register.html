@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement Portal</title>
+    
+    <style>
+         
+        div{
+            background-color: snow;
+            border-style: double;
+            border-color: darkblue;
+            border-width: medium;
+            border-radius: 15px;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            padding: 50px;
+            font-size: 25px;
+            width: 700px;
+            transform: translate(-50%,-40%);
+        }
+        
+        input{
+            width:100%;
+            border-radius:5px;
+        }
+
+button{
+    width: 100%;
+    background-color:rgb(223, 108, 82);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+        p#link{
+            font-size: 20px;
+        }
+        p#msg{
+            font-size: 20px;
+            color: red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/register" method="POST">
+            Please enter the following details correctly:
+            <br><br>
+            <label for="username">Name :</label>
+            <input type="text" name="username" placeholder="Enter your Full Name" required >
+            <br><br>
+
+            <label for="email_id">Email :</label>  
+            <input type="email" name="email_id" placeholder="Enter official company email id only" required>
+            <br><br>
+            {% if msg %}
+            <p id="msg">{{msg}}</p>
+            {% endif %}
+
+            <label for="password">Password :</label> 
+            <input type="password" name="password" placeholder="Make a strong password" required>
+            <br>
+            <br>
+
+            <label for="department">Department:</label>
+            <select name="department" id="department" required>
+                {% for dept in departments %}
+                <option value="{{dept[1]}}">{{dept[1]}}</option>
+                {% endfor %}
+               
+            </select>
+
+
+            <br><br>
+
+            <label for="employee_type">Employeement Type :</label>
+            <br>
+            <input type="radio" name="employee_type" value="employee" id="employee" style="width: 5%;">
+            <label for="employee">Employee</label>
+            <br>
+            <input type="radio" name="employee_type" value="manager" id="manager" style="width: 5%;">
+            <label for="manager">Manager</label>
+            <br><br>
+            
+
+            
+
+            <button type="submit">REGISTER</button>
+            <br>
+            
+            <p id="link">Already have an account? <a href="{{url_for('login')}}">Login now</a></p>
+        </form>
+    </div>
+    
+</body>
+</html>

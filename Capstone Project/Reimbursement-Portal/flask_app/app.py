@@ -98,17 +98,16 @@ def login():
         email_id=request.form['email_id']
         password=request.form['password']
         cursor=mysql.connection.cursor()
-        cursor.execute('SELECT * FROM users WHERE email_id =%s AND password=%s',(email_id,password))
+
+        cursor.execute('SELECT * FROM users WHERE email_id =%s',(email_id,))
         account=cursor.fetchone()
-        if account:
+        stored_password=account[3]
+        # hash_bytes=account[3].encode()
+        if bcrypt.checkpw(password.encode(),stored_password.encode()):
             msg='Logged in successfully'
             print("successful")
             user_id = account[0]
             user_name = account[1]
-            cursor.execute('SELECT user_id FROM users WHERE email_id=%s and password=%s',(email_id,password))
-            user_id=cursor.fetchone()[0]
-            cursor.execute('SELECT username FROM users WHERE email_id=%s and password=%s',(email_id,password))
-            user_name=cursor.fetchone()
             employee_type = account[5]
             if employee_type =='manager':
                 cursor.execute('SELECT * FROM requests WHERE handled_by=%s',(user_id,))
@@ -117,7 +116,7 @@ def login():
                 manager_data=cursor.fetchall()
                 session['manager_id']=user_id
                 session['user_id']=user_id
-                return render_template('manager-page.html',manager_id=user_id,manager_name=user_name[0],data=data,manager_data=manager_data,user_id=user_id)
+                return render_template('manager-page.html',manager_id=user_id,manager_name=user_name,data=data,manager_data=manager_data,user_id=user_id)
             else:
                 cursor.execute('SELECT * FROM requests WHERE user_id=%s',(user_id,))
                 data=cursor.fetchall()
@@ -142,6 +141,13 @@ def register():
         password = request.form['password']
         department = request.form['department']
         employee_type=request.form['employee_type']
+        
+        #Hash password with a salt
+        password=password.encode()
+        salt=bcrypt.gensalt()
+        hash=bcrypt.hashpw(password,salt)
+        password=hash.decode()
+        
 
         if not re.match(".*@nucleusteq.com",email_id):
             msg = "Please enter a valid company email address only"
